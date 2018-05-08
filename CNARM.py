@@ -71,6 +71,7 @@ def prepare_data(seqs, labels):
     return x, x_mask, labels
 
 
+
 def load_data(valid_portion=0.1, maxlen=19, sort_by_len=False): # validation ratio, max sequence length
     path_train_data = '/home/aa4075/AML/project/train_pickle'
     path_test_data = '/home/aa4075/AML/project/test_pickle'
